@@ -1,0 +1,25 @@
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1 a
+{
+    text-decoration: none;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul a
+{
+    text-decoration:none;
+    margin-left:9em ;
+    font-size: 20px;
+}
