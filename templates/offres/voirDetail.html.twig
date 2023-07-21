@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello EmployesController!
+{% endblock %}
+
+{% block body %}
+	<div class="card" style="width: 18rem;">
+		<img src="{{asset(offre.Image)}}" class="card-img-top" alt="...">
+		<div class="card-body">
+			<h5 class="card-title">{{offre.Titre}}</h5>
+			<p class="card-text">Prix:
+				{{offre.Prix}}€ /nuit</p>
+		</div>
+	</div>
+{% endblock %}

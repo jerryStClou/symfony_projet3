@@ -1,13 +1,41 @@
-nav
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: poppins-r; */
+}
+
+.tousCards
 {
     display: flex;
     justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+/* nav
+{
+    border: 2px solid #A57548;
+    background: #A57548;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    height: 6vh;
 }
 
 nav h1 a
 {
     text-decoration: none;
+    color:black;
+}
+
+nav h1 a:hover
+{
+    text-decoration: none;
+    color: #099B6A;
 }
 
 nav ul
@@ -22,4 +50,179 @@ nav ul a
     text-decoration:none;
     margin-left:9em ;
     font-size: 20px;
+    color:black;
 }
+
+nav ul a:hover
+{
+    color:#099B6A;
+} */
+
+/* ---------------Style Section Home------------------------------ */
+
+/* section
+{
+   
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+section img
+{
+    width: 100%;
+} */
+
+
+/* ----------------------------Style Card ------------------------ */
+
+/* .cards
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card
+{
+    border: 2px solid black;
+    border-radius:5px ;
+    width: 20%;
+    text-align: center;
+}
+
+.card img
+{
+    width: 100%;
+    height: 40vh;
+}
+
+.card p
+{
+    font-size: 22px;
+}
+
+
+#ajoutStyle
+{
+    background-color: #29c392;
+    border:2px solid #29c392;
+    border-radius: 5px;
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#ajoutStyle a
+{
+    text-decoration: none;
+}
+
+#ajoutStyle:hover
+{
+    background-color: #b0b5b3;
+    border-color:#b0b5b3 ;
+    
+}
+
+
+.ajoutStyle
+{
+    background-color: #0484b6;
+    border:2px solid #0484b6;
+    border-radius: 5px;
+    width: 100%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.ajoutStyle a
+{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.ajoutStyle:hover
+{
+    background-color: #b0b5b3;
+    border-color:#b0b5b3 ;
+    
+}
+
+
+.supprimerStyle
+{
+    background-color: #ee551e;
+    border:2px solid #ee551e;
+    border-radius: 5px;
+    width: 4%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.supprimerStyle a
+{
+    text-decoration: none;
+    font-size: 17px;
+} */
+
+/* -------------------------Style Footer -------------------------- */
+
+
+/* footer
+{
+    border: 2px solid #FCD7AD;
+    background: #FCD7AD;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:4em;
+}
+
+
+.sousTitre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sousTitre h1 a 
+{
+    color: black;
+}
+
+.sousTitre h1 a:hover
+{
+    color:#099B6A;
+}
+
+
+.sousTitre ul
+{
+    list-style: none;
+
+}
+
+
+.sousTitre ul li
+{
+    width: 100%;
+}
+
+.sousTitre li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+
+.sousTitre li a:hover
+{
+    color:#099B6A;
+} */
+
+
+

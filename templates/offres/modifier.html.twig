@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello EmployesController!
+{% endblock %}
+
+{% block body %}
+
+	<h1 class="text-center">Modifier l'offre</h1>
+	<div class="border-1 m-5 text-center">
+		{{form_start(form)}}
+
+		<div>
+			<h4>Titre</h4>
+			<span class='m-1'>{{form_widget(form.Titre)}}</span>
+			<span class="m-1">{{form_errors(form.Titre)}}</span>
+		</div>
+
+		<div>
+			<h4>Image</h4>
+			<span class='m-1'>{{form_widget(form.Image)}}</span>
+			<span class="m-1">{{form_errors(form.Image)}}</span>
+		</div>
+
+		<div>
+			<h4>Prix</h4>
+			<span class='m-1'>{{form_widget(form.Prix)}}</span>
+			<span class="m-1">{{form_errors(form.Prix)}}</span>
+		</div>
+
+		<br>
+		<button class='btn btn-primary'>{{button_label|default('save')}}</button>
+		{{form_end(form)}}
+	</div>
+{% endblock %}

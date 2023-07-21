@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello OffresController!
+{% endblock %}
+
+{% block body %}
+	<br><br>
+
+	<div class="tousCards">
+
+		{% for offre in offres %}
+			<div class="card" style="width: 18rem;">
+				<img src="{{asset(offre.Image)}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">{{offre.Titre}}</h5>
+					<p class="card-text">Prix:
+						{{offre.Prix}}€ /nuit</p>
+					<a href="{{path('app_offres_suppression',{'id':offre.id})}}" class="btn btn-danger">Supprimer</a>
+					<a href="{{path('app_offres_modifier',{'id':offre.id})}}" class="btn btn-warning">Modifier</a>
+					<a href="{{path('app_offres_voirDetail',{'id':offre.id})}}" class="btn btn-info">voir detail</a>
+
+				</div>
+			</div>
+
+		{% endfor %}
+	</div>
+
+	<br><br>
+	<a href="{{path('app_offres_ajout')}}" class="btn btn-success">Ajouter une offre</a>
+{% endblock %}
